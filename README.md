@@ -157,6 +157,8 @@ infection/exposure in mammal(s). <br>
 
 <code>control_measures</code>: Main intervention(s) implemented to mitigate further spread of the virus.<br>  
 
+<code>outcome</code>: Issue of the avian flu infection (or exposure). <br>  
+
 
 
 #### Note
