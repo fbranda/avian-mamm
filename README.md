@@ -157,7 +157,7 @@ infection/exposure in mammal(s). <br>
 
 <code>control_measures</code>: Main intervention(s) implemented to mitigate further spread of the virus.<br>  
 
-<code>outcome</code>: Issue of the avian flu infection (or exposure). <br>  
+<code>outcome</code>: Issue of the avian flu infection (or exposure). If <code>total_cases</code> = <code>total_deaths</code>: "death"; If <code>total_cases</code> = <code>total_killed_and_disposed_of</code>: "death"; If <code>total_cases</code> = <code>total_deaths</code> + <code>total_killed_and_disposed_of</code>: "death"; If <code>total_cases</code> > <code>total_killed_and_disposed_of</code>: "death"; If <code>total_deaths</code> + <code>total_killed_and_disposed_of</code> > <code>total_cases</code>: "death"; If <code>total_cases</code> > <code>total_deaths</code>: "positive"; If <code>total_cases</code> > <code>total_killed_and_disposed_of</code>: "positive". 
 
 
 
