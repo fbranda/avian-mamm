@@ -44,7 +44,9 @@ library(treemap)
 ```
 
 # Import the data
+```{r import data}
 avian_flu_df <- read.csv("latest-outbreaks-mammals.csv", encoding="UTF-8") 
+```
 
 ## How many avian flu events in animals have been published ? 
 The figure includes follow-up history reports of outbreaks. Date of publication is used.
@@ -225,7 +227,7 @@ kable(table_species, format = "latex", booktabs = T,
 
 \newpage
 
-
+```{r treemap, echo=FALSE, message=FALSE, warning=FALSE}
 treemap(table_species,
             index=c("Species","Number_cases"),
             vSize="Number_cases",
@@ -241,7 +243,6 @@ treemap(table_species,
     overlap.labels=0.5,                      
     inflate.labels=F) 
 ```
-Note: For each species, we counted one case for any missing value on the number of cases.
 
 \newpage
 
@@ -311,7 +312,7 @@ In the figure below, the colloquial name of the animal host is displayed.<br>
   guides(fill = guide_colourbar(barwidth = 2, barheight = 10)) +
   theme(text = element_text(size = 24)) 
 ```
-Red color = Value non available.
+
 
 
 \newpage
@@ -434,7 +435,7 @@ nodes$id <- nodes$label
 edges_df <-  avian_flu_df %>%
   group_by(species, control_measures, outcome) %>%
   tally() %>% 
-  mutate(control_measures = replace(control_measures, is.na(control_measures), "not applicable")) %>% 
+  mutate(control_measures = replace(control_measures, is.na(control_measures), "not applicable"))
   
 edges_df1 <- edges_df %>%
   select(species, control_measures, n) 
