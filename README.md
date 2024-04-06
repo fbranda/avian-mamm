@@ -173,6 +173,10 @@ We have considered the two following values throughout the dataset: <br>
 
 - [Francesco Branda](https://francescobranda.netlify.app/) <br>
 
+## Publications <a name="Publications"></a>
+1) [Branda F, Giovanetti M, Scarpa F, Ciccozzi M. Monitoring avian influenza in mammals with real-time data. Pathogens and Global Health. 2024 Feb 29:1-5.](https://www.tandfonline.com/eprint/5NESRQXTYKYXTQGITT8G/full?target=10.1080/20477724.2024.2323843)
+
+
 ## License <a name="License"></a>
 
 This project is licensed under the CC BY-SA 4.0 License - see the [CC
