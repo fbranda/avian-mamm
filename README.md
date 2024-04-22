@@ -23,10 +23,10 @@ code, submitting new data, and contributing to the code.<br>
 recorded in the dataset, a copy of the report used as primary information source is saved in this folder. 
 Each report was downloaded as a .pdf file. <br>  
 
+**<code>sequences</code>**: Genetic sequences made available by APHIS National Veterinary Services Laboratories from the U.S. influenza virus H5N1 clade 2.3.4.4b, recently found in samples associated with the ongoing highly pathogenic avian influenza (HPAI) outbreak in poultry and wild birds and the recent H5N1 event in dairy cattle.
+
 The [AVIAN-MAMM Map](https://tinyurl.com/avianflu-mammals-map) provides
 interactive visualizations of the dynamic version of the dataset. <br>
-
-**The data on this repository is weekly updated.**
 
 ## About the Data <a name="Data"></a>
 
