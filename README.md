@@ -176,6 +176,9 @@ We have considered the two following values throughout the dataset: <br>
 ## Publications <a name="Publications"></a>
 1) [Branda F, Giovanetti M, Scarpa F, Ciccozzi M. Monitoring avian influenza in mammals with real-time data. Pathogens and Global Health. 2024 Feb 29:1-5.](https://www.tandfonline.com/eprint/5NESRQXTYKYXTQGITT8G/full?target=10.1080/20477724.2024.2323843)
 
+2) 1) [Branda F, Romano C, Giovanetti M, Ciccozzi A, Ciccozzi M, Scarpa F. Emerging Threats: Is Highly Pathogenic Avian Influenza A (H5N1) in Dairy Herds a Prelude to a New Pandemic?. Travel medicine and infectious disease. 2024 Apr 7:102721.](https://www.sciencedirect.com/science/article/pii/S1477893924000358?via%3Dihub)
+
+
 
 ## License <a name="License"></a>
 
